@@ -12,6 +12,17 @@ $(function () {
     currentDayEl.text(today.format("MMM DD, YYYY"));
   })
 
+  //past var for CSS
+  // present var for css
+  //future var for css
+
+  // if else statement checking against the current time to see how the CSS will change past present and future blocks 
+  
+
+  // local storage when save button is clicked. content stays on page when it is refreshed 
+
+
+  
   
   // TODO: Add a listener for click events on the save button. This code should
   // use the id in the containing time-block as a key to save the user input in
