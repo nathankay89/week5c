@@ -3,6 +3,19 @@ body {
   font-size: 16px;
 }
 
+
+.p-5 {
+  padding: 3rem!important;
+  text-align: center;
+  background-color: #152448;
+  color: white;
+}
+
+.notification{
+  text-align: center;
+  color: rgb(125, 9, 9);
+}
+
 textarea {
   background: transparent;
   border: none;
@@ -12,9 +25,45 @@ textarea {
   padding: 10px;
 }
 
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+    border-top: 10px solid black;
+}
+
 .description {
   white-space: pre-wrap;
 }
+
+/* buttons */
+.saveBtn {
+  border-left: 1px solid rgb(3, 3, 3);
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #152448;
+  color: white;
+}
+
+.saveBtn i:hover {
+  font-size: 30px;
+  transition: all 0.2s ease-in-out;
+  color: #11a5e9;
+}
+
+.clearBtnContainer{
+  font-size: 19px;
+  
+}
+
+.clearBtnContainer :hover{
+  transition: all 0.2s;
+  color: #e92311;
+}
+
+/* Schedule area */
 
 .time-block {
   border-radius: 15px;
@@ -36,24 +85,12 @@ textarea {
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: #bc1108;
   color: white;
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: #41a241;
   color: white;
 }
 
-.saveBtn {
-  border-left: 1px solid black;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  background-color: #06aed5;
-  color: white;
-}
-
-.saveBtn i:hover {
-  font-size: 20px;
-  transition: all 0.3s ease-in-out;
-}

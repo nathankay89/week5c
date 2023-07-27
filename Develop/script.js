@@ -5,6 +5,7 @@ var currentDayEl = $('#currentDay');
 var currentWorkdayEl = $('#daylength');
 var containerLargeEl = $('.container-lg');
 
+
 $(function () {
 
   currentDate = setInterval(() => {
@@ -12,6 +13,7 @@ $(function () {
     currentDayEl.text(today.format("MMM DD, YYYY"));
   })
 
+  
   //past var for CSS
   // present var for css
   //future var for css
