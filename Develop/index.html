@@ -34,20 +34,6 @@
       <p id="currentDay" class="lead"></p>
       <p id="datetime"></p>
 
-      <script>
-        // Function to update the date and time
-        function updateDateTime() {
-          const now = new Date();
-          $("#datetime").text(now.toLocaleString()); // Update the content of the #datetime element with the current date and time
-        }
-
-        // Call the updateDateTime function to initially display the current date and time
-        updateDateTime();
-
-        // Update the date and time every second 
-        setInterval(updateDateTime, 1000);
-      </script>
-
       <div class="clearBtnContainer"> 
           <button id="clearBtn">Clear Schedule 🗑️</button>
       </div>
